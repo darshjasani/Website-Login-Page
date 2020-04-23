@@ -10,10 +10,10 @@ else{
 	echo"no connection";
 }
 mysqli_select_db($con,'mysql');
-$username=$_POST['uname'];
-$password=$_POST['psw'];
-$q=" select * from logindb where username ='$username' ";
-$p=" select * from logindb where password ='$password' ";
+$uname=$_POST['uname'];
+$psw=$_POST['psw'];
+$q=" select * from logindb where username ='$uname' ";
+$p=" select * from logindb where password ='$psw' ";
 $result = mysqli_query($con,$q);
 $result1 = mysqli_query($con,$p);
 $num = mysqli_num_rows($result);
