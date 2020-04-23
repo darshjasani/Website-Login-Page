@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login page</title>
+	<link rel="stylesheet" type="text/css" href="loginin.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="login.js"></script>
+
+</head>
+<body>
+	<div class="login" >
+		<img src="desert.jpg">
+		<form  method="post" onsubmit="return validate();" action = "login.php">
+
+			<h1>LOGIN PAGE</h1></br>
+			<input name = "uname" id = "uname" class="name" type="text" name="name" placeholder="For eg. monil">
+			<label id = "uvaild" style="color: red; visibility: hidden;" >Invalid</label></br>
+			<input name = "psw" id ="pass" class="password" type="password" name="password" placeholder="For eg. Monil@123">
+			<label id = "pvaild" style="color: red; visibility: hidden;" >Invalid</label></br>
+			<input class="submit" type="submit" name="submit" value="login"></br>
+		</form>
+
+		<ul>
+			<li><a class="forget" href="forgetpass.html">forget password?</a></li>
+			<li><a class="sign" href="form.html">create new account</a></li>
+		</ul>	
+	</div>	
+
+</body>
+</html>

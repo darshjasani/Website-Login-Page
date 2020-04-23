@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: url('C:/xampp/htdocs/New folder/0431.jpg');
+	font-family: 'Tangerine',cursive;
+
+}
+.box{
+	color: white;
+}
+.login{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	color:black;
+	background-color:white;
+	width: 320px;
+	height:400px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	text-align: center;
+	float: center;
+	opacity: 0.8;
+	box-shadow:1px black;
+	/*filter: blur(1px);*/
+
+}
+
+.login h1{
+	padding-top: 0;
+	color: green;
+}
+img{
+	border-radius: 50%;
+	width:60px;
+	height:60px;
+	margin-left: 1%;
+	margin-top: -35px;
+}
+
+.login .name,.login .password{
+	border-radius: 10px;
+	text-decoration: none;
+	margin-top: 20px;
+	border-top: white;
+	border-left: white;
+	border-right: white; 
+	padding:10px;
+	border-bottom: 2px #2196f3 solid ;
+
+}
+
+
+.login .submit{
+	position: relative;
+	display: inline-block;
+	padding:5px 1px;
+	color:#2196f3;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 20%;
+	margin-left: 2.5%;
+	border-radius: 10px;
+
+}
+
+.login .submit:hover{
+	color: black;
+	background:#2196f3;
+	box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+	transition: .5s;
+	cursor: pointer;
+}
+.login li{
+	list-style-type: none;
+}
+.login li .forget{
+	display:flex;
+	text-decoration: none;
+	padding-top: 20px;
+	margin-top:1px;
+	margin-right: 0;
+	color: black;
+}
+.login li .forget:hover{
+	color: #2196f3;
+}
+.login li .sign{
+	display:inline-flex;
+	text-decoration: none;
+	margin-top:25px;
+	margin-right: 0;
+	color: black;
+
+}
+.login li .sign:hover{
+
+	color: #2196f3;
+}

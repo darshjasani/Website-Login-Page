@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Form with JS</title>
+	<script type="text/javascript" src="form_js.js"></script>
+</head>
+<body>
+	<form onsubmit="return validate();" method ="post" action="form.php">
+		<label> Enter the Username :</label>
+		<input name = "uname" id="uname" type="text" placeholder="Username"/>
+		<label id = "uvaild" style="color: red; visibility: hidden;" >Invalid</label></br>
+		<br><br>
+		<label>Enter the Password :</label>
+		<input name = "psw" id="pass" type="password" placeholder="Password" />
+		<label id = "pvaild" style="color: red; visibility: hidden;" >Invalid</label></br>
+		<br><br>
+		<label>Gender :</label>
+		<input  id ="m" type="radio" name="gen" value="Male">Male</input>
+		<input  id ="f" type="radio" name="gen" value="Female">Female</input>
+		<input  id ="o" type="radio" name="gen" value="Other">Other</input>
+		<label id = "gvalid" style="color: red; visibility: hidden;">Select it</label>
+		<br><br>
+		<label> Enter the PhoneNumber :</label>
+		<input name = "phno" id="phone" type="text" placeholder="PhoneNumber"/>
+		<label id = "pno" style="color: red; visibility: hidden;" >Invalid</label></br>
+		<br><br>
+		<label> Enter your EmailId :</label>
+		<input name = "eid" id="email" type="text" placeholder="EmailId"/>
+		<label id = "evalid" style="color: red; visibility: hidden;" >Invalid</label></br>
+		<br><br>
+		<label>City :</label>
+		<select  name = "city" id ="selectbox">
+			<option value="Select your city" selected hidden >Select your city</option>
+			<option value="Vadodara">Vadodara</option>
+			<option value="Surat">Surat</option>
+			<option value="Bharuch">Bharuch</option>
+			<option value="Rajkot">Rajkot</option>
+			<option value="Ahemdabad">Ahemdabad</option>
+		</select>
+		<label id ="cvalid" style="color: red; visibility: hidden;">Select it</label>
+		<br><br>
+		<button type ="submit">Submit</button>
+	</form>
+</body>
+</html>

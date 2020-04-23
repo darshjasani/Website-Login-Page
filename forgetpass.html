@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forget Password Page</title>
+	<script type="text/javascript" src="forgetpass_js.js"></script>
+</head>
+<body>
+	<form onsubmit="return validate();" method ="post" action="forgetpass.php">
+		<label> Enter the Phonenumber :</label>
+		<input name = "phonenu" id="phone" type="text" placeholder="Phonenumber"/>
+		<label id = "phvaild" style="color: red; visibility: hidden;" >Invalid</label></br>
+		<br><br>
+		<label>Enter the Emailid :</label>
+		<input name = "email" id="email" type="text" placeholder="EmailId" />
+		<label id = "evalid" style="color: red; visibility: hidden;" >Invalid</label></br>
+		<br><br>
+		<button type ="submit">Submit</button>
+	</form>
+
+</body>
+</html>
