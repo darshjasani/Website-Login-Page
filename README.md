@@ -2,4 +2,4 @@
 
 It is just a simple login page for a website.
 
-U can use it as well
+U can use it as well in your project.
