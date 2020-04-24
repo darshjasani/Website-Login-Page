@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reset Password Page</title>
+		<script type="text/javascript" src="resetpass.js"></script>
+</head>
+<body>
+	<form onsubmit="return validate();" method ="post" action="resetpass.php">
+		<label> Enter the New Password :</label>
+		<input name = "pass" id="pass" type="password" placeholder="Password"/>
+		<label id = "pvaild" style="color: red; visibility: hidden;" >Invalid</label></br>
+		<br><br>
+
+		<label>Confirm Password :</label>
+		<input name = "cpass" id="confirm" type="password" placeholder="Password" />
+		<label id = "confi" style="color: red; visibility: hidden;" >Invalid</label></br>
+		<br><br>
+		<button type ="submit">Submit</button>
+	</form>
+
+</body>
+</html>
