@@ -12,4 +12,4 @@ You have to install Xampp for that on your devices.
 
 Then start the apache and mysql server.
 
-You can use it as well in your project.
+You can use it as well in your project..
